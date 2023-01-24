@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    background-image: url(@camintech.png);
+    background-size: 3000px 1500px;
+    background-repeat: no-repeat;
+  }
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'poppins', sans-serif !important;
+    color: aliceblue;
+}
+
+.rec-sq {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   }
+   .square {
+    width: 500px;
+    height: 500px;
+    align-self: center;
+    background: aliceblue;
+    border-radius: 10%;
+   }
