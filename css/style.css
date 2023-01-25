@@ -9,10 +9,10 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    background: #222;
-    color: #fff;
+    background-image: url(/images/@camintech.png);
+    background-size: 3000px 1500px;
+    background-repeat: no-repeat;
+    min-height: 100%;
 }
 
 main {
@@ -32,10 +32,13 @@ section {
     align-items: center;
 }
 
+
 h1 {
+    font-size: 50px;
     text-align: center;
-    font-size: 1.75rem;
-    margin: 0.625rem;
+    font-family: 'Roboto', sans-serif !important;
+    color: aliceblue;
+    padding: 5%;
 }
 
 .centro {
@@ -50,21 +53,27 @@ h1 {
 
 #numQuestao {
     display: block;
-    background: #00b0ff;
+    background: #14c8e3;
     padding: 4px 10px 2px 10px;
     border-radius: 50%;
+    color: aliceblue;
 }
 
 #pergunta {
     margin-left: 1rem;
+    color: aliceblue;
 }
 
 /* article que acomoda a questao completa */
 .questoes {
     padding: 1.5rem;
-    border: 1px solid #ececec;
-    border-radius: 5px;
+    border: 5px solid #ececec;
+    border-radius: 20px;
     margin-bottom: 2rem;
+}
+
+#alternativas{
+    color: aliceblue;
 }
 
 .questoes ol li {
@@ -75,7 +84,7 @@ h1 {
 }
 
 .questoes ol li:hover {
-    background: #00b0ff;
+    background: #14c8e3;
     cursor: pointer;
 }
 
@@ -88,8 +97,8 @@ h1 {
 }
 
 #instrucoes {
-    background: #ccc;
-    color: #191919;
+    background: #14c8e3;
+    color:aliceblue;
     padding: 0.625rem;
     border-radius: 8px;
 
@@ -100,7 +109,7 @@ h1 {
 }
 
 #aviso {
-    color: #00b0ff;
+    color: #14c8e3;
 }
 
 /* ANIMACAO */
@@ -108,8 +117,9 @@ h1 {
 /* Animar o input */
 @keyframes piscar {
     0% {
-        filter: drop-shadow(0 0 15px #00b0ff);
-        -webkit-filter: drop-shadow(0 0 15px #00b0ff);
+    background: #14c8e3;
+    filter: drop-shadow(0 0 15px #14c8e3);
+        -webkit-filter: drop-shadow(0 0 15px #8b25eb);
         -moz-filter: drop-shadow(0 0 15px #00b0ff);
         -o-filter: drop-shadow(0 0 15px #00b0ff);
         -ms-filter: drop-shadow(0 0 15px #00b0ff);
