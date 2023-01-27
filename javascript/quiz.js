@@ -30,26 +30,26 @@ const q0 = {
 
 const q1 = {
     numQuestao   : 1,
-    pergunta     : "Boreal é o mesmo que...",
-    alternativaA : "Sul",
-    alternativaB : "Leste",
-    alternativaC : "Norte",
-    correta      : "Norte",
+    pergunta     : "Do i prefer eat...",
+    alternativaA : "estrogonofe",
+    alternativaB : "pasta",
+    alternativaC : "fini",
+    correta      : "fini",
 }
 
 const q2 = {
     numQuestao   : 2,
-    pergunta     : "Austral é o mesmo que...",
-    alternativaA : "Oeste",
-    alternativaB : "Sul",
-    alternativaC : "Norte",
-    correta      : "Sul",
+    pergunta     : "I was born in the month of...",
+    alternativaA : "february",
+    alternativaB : "january",
+    alternativaC : "may",
+    correta      : "january",
 }
 
 const q3 = {
     numQuestao   : 3,
-    pergunta     : "Nascente é o mesmo que...",
-    alternativaA : "Sul",
+    pergunta     : "My favorite movie is...",
+    alternativaA : "the sound of music",
     alternativaB : "Leste",
     alternativaC : "Oeste",
     correta      : "Leste",
@@ -57,11 +57,11 @@ const q3 = {
 
 const q4 = {
     numQuestao   : 4,
-    pergunta     : "Poente é o mesmo que...",
-    alternativaA : "Norte",
-    alternativaB : "Leste",
-    alternativaC : "Oeste",
-    correta      : "Oeste",
+    pergunta     : "My favorite color...",
+    alternativaA : "pink",
+    alternativaB : "white",
+    alternativaC : "blue",
+    correta      : "blue",
 }
 
 const q5 = {
@@ -73,8 +73,53 @@ const q5 = {
     correta      : "América",
 }
 
+const q6 = {
+    numQuestao   : 6,
+    pergunta     : "O Brasil se localiza em qual continente?",
+    alternativaA : "África",
+    alternativaB : "Europa",
+    alternativaC : "América",
+    correta      : "América",
+}
+
+const q7 = {
+    numQuestao   : 7,
+    pergunta     : "O Brasil se localiza em qual continente?",
+    alternativaA : "África",
+    alternativaB : "Europa",
+    alternativaC : "América",
+    correta      : "América",
+}
+
+const q8 = {
+    numQuestao   : 8,
+    pergunta     : "O Brasil se localiza em qual continente?",
+    alternativaA : "África",
+    alternativaB : "Europa",
+    alternativaC : "América",
+    correta      : "América",
+}
+
+const q9 = {
+    numQuestao   : 9,
+    pergunta     : "O Brasil se localiza em qual continente?",
+    alternativaA : "África",
+    alternativaB : "Europa",
+    alternativaC : "América",
+    correta      : "América",
+}
+
+const q10 = {
+    numQuestao   : 10,
+    pergunta     : "O Brasil se localiza em qual continente?",
+    alternativaA : "África",
+    alternativaB : "Europa",
+    alternativaC : "América",
+    correta      : "América",
+}
+
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
-const questoes = [q0, q1, q2, q3, q4, q5]
+const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
 
 let numero = document.querySelector('#numero')
 let total  = document.querySelector('#total')
